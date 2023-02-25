@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <title>Juego de memoria y agilidad escribiendo las palabras</title>
+  
+  <link href="styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=PT+Sans&family=Prosto+One&family=Tangerine&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" >
+  
+
+</head>
+<center> 
+<body>
+
+
+  <section id="info">
+    <h5 >Hecho por:</h5>
+    <h5 >James Alexander Mejía</h5><br>
+    <h2>Juego de memoria y agilidad escribiendo las palabras en: "10 segundos" </h2>
+  
+    <i class="far fa-clock"  style="color: black;font-size: 40px; margin-top: 5px"></i>
+    <div id="temporizador">
+    10
+    </div>
+    <p>El juego consiste en <strong>memorizar la palabra</strong> que esta ubicada <strong> en el centro</strong> de cada tarjeta con imagen, cuando estes list@ debes <strong>dar clic en el recuadro: "Escriba la palabra", </strong>inmediatamente desaparece dicha palabra y tiene 10 segundos para escribirla tal cual la vió teniendo en cuenta <strong>mayúsculas, minúsculas y tildes</strong>, y dar clic en el <strong>botón validar,</strong> para que el sistema verifique si coincide o no con la palabra correcta; se pueden probar todos los niveles los cuales están implementados de acuerdo al número de letras y si estos llevan tilde o no.</p>
+  </section> 
+   <br> <br>
+  <section id="secciones">
+  <div class="contenedor">
+
+ 
+<!--SOL-->
+<!-------------------------------------------------------------------------------------->
+    <div>
+      <article >
+        <i class="far fa-hand-point-down" style="color: background: rgb(69,90,100);font-size: 30px; margin-top: 5px"></i>
+        
+        <h4 class="Mostrar_Ocultar_Palabra">SOL</h4>
+        
+        <img src="Imagenes/sol.jpg" class="Mostrar_Ocultar_Palabra">
+        
+        
+        <br>
+        <input id="palabraUno" type="text" placeholder="Escriba la palabra"onclick="mostrarUocultarPalabra()">
+        
+        <br><br>
+
+       
+        <input type="button" id="myButton" value="Validar" onclick="validacion();">
+        
+        <br><br>
+        
+        <label id="superado1"></label>
+
+   <br><br>
+
+   <input class="botonNiveles" type="button" value="Nivel 1"/>
+
+   <br><br>
+
+    </article>
+
+ </div>
+
+<!--MaRTE-->
+<!-------------------------------------------------------------------------------------->
+    <div>
+      <article >
+        <i class="far fa-hand-point-down" style="color: background: rgb(69,90,100);font-size: 30px; margin-top: 5px"></i>
+        <h4 class="Mostrar_Ocultar_Palabra2">MaRTE</h4>
+        <img src="Imagenes/marte.png" class="Mostrar_Ocultar_Palabra2">
+        
+        <br>
+        <input id="palabraDos" type="text" placeholder="Escriba la palabra"onclick="mostrarUocultarPalabra2()">
+        <br><br>
+
+        <input type="button" id="myButton" value="Validar" onclick="validacion2();">
+        <br><br>
+        <label id="superado2"></label>
+   <br><br>
+   <input class="botonNiveles" type="button" value="Nivel 2"/>
+   <br><br>
+    </article>
+ </div>
+
+<!--TIerRA-->
+<!-------------------------------------------------------------------------------------->
+    <div >
+      <article >
+        <i class="far fa-hand-point-down" style="color: background: rgb(69,90,100);font-size: 30px; margin-top: 5px"></i>
+        <h4 class="Mostrar_Ocultar_Palabra3">TIerRA</h4>
+        <img src="Imagenes/tierra.jpg" class="Mostrar_Ocultar_Palabra3">
+        
+        <br>
+        <input id="palabraTres" type="text" placeholder="Escriba la palabra"onclick="mostrarUocultarPalabra3()">
+        <br><br>
+
+        <input type="button" id="myButton" value="Validar" onclick="validacion3();">
+        <br><br>
+   
+   <label id="superado3"></label>
+   <br><br>
+   <input class="botonNiveles" type="button" value="Nivel 3"/>
+   <br><br>
+    </article>
+ </div>
+
+<!--vENuS-->
+<!-------------------------------------------------------------------------------------->
+    <div>
+      <article >
+        <i class="far fa-hand-point-down" style="color: background: rgb(69,90,100);font-size: 30px; margin-top: 5px"></i>
+        <h4 class="Mostrar_Ocultar_Palabra4">vENuS</h4>
+        <img src="Imagenes/venus.png" class="Mostrar_Ocultar_Palabra4">
+        
+        <br>
+        <input id="palabraCuatro" type="text" placeholder="Escriba la palabra"onclick="mostrarUocultarPalabra4()">
+        <br><br>
+
+        <input type="button" id="myButton" value="Validar" onclick="validacion4();">
+        <br><br>
+        <label id="superado4"></label>
+   <br><br>
+   <input class="botonNiveles" type="button" value="Nivel 4"/>
+   <br><br>
+    </article>
+ </div>
+
+<!--jÚpItEr-->
+<!-------------------------------------------------------------------------------------->
+    <div>
+      <article >
+        <i class="far fa-hand-point-down" style="color: background: rgb(69,90,100);font-size: 30px; margin-top: 5px"></i>
+        <h4 class="Mostrar_Ocultar_Palabra5">jÚpItEr</h4>
+        <img src="Imagenes/jupiter.jpg" class="Mostrar_Ocultar_Palabra5">
+        
+        <br>
+        <input id="palabraCinco" type="text" placeholder="Escriba la palabra"onclick="mostrarUocultarPalabra5()">
+        <br><br>
+
+        <input type="button" id="myButton" value="Validar" onclick="validacion5();">
+        <br><br>
+        <label id="superado5"></label>
+   <br><br>
+   <input class="botonNiveles" type="button" value="Nivel 5"/>
+   <br><br>
+    </article>
+   <br><br>
+ </div>
+ 
+</div>
+</section>
+
+<script src="jquery.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+</center>
+</html>
+
+
+
+

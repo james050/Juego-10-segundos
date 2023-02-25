@@ -1,0 +1,139 @@
+body {
+  height:100%;
+  background-image: url("Imagenes/general.jpg");
+  font-family: 'Lobster', cursive;
+  color: rgb(30, 55, 153);
+
+  }
+#secciones h4,h5 {
+    text-align: center;
+}
+ 
+#secciones .contenedor {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap; 
+}
+ 
+#secciones article {
+    margin: 10px;
+    text-align: center;
+    cursor:pointer;
+    background: rgb(12, 36, 97);/*azul oscuro CIELO*/
+    color: rgb(255, 199, 39);/*naranja amarilloso claro*/
+    font-size: 20px;
+    border:1px solid #fff;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+#secciones img {
+    max-width: 280px;
+    max-height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px; 
+
+}
+p {
+    font-size: 20px; 
+}
+
+
+h4:hover{
+    margin: 10px;
+    text-align: center;
+    cursor:pointer;
+    color: rgb(255, 199, 39);/*naranja amarilloso claro*/
+    font-size: 40px;
+    transition-duration: 1s;
+    
+}
+#temporizador{
+    font-size: 15pt;
+    margin: 60px auto;
+    width: 100px;
+    color: rgb(30, 55, 153);
+}
+
+#myButton{
+    width: 80px;
+    background-color: rgb(255, 199, 39);/*naranja amarilloso claro*/
+    border-radius: 10px;
+
+    
+}
+.botonNiveles{
+    width: 100px;
+    background-color: rgb(255, 199, 39);/*naranja amarilloso claro*/
+    border-radius: 10px;
+ 
+}
+#myButton:hover{
+    width: 100px;
+    border-radius: 10px;
+    background: linear-gradient(#FFFA96,#5D6D7E); 
+    
+}
+
+
+#info{
+    
+    margin: 20px auto 0px;
+    background: #ccc;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+#palabraUno{
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(255, 400, 150);/*Amarillo clarito*/
+
+}
+#palabraDos{
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(255, 400, 150);/*Amarillo clarito*/
+
+}
+#palabraTres{
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(255, 400, 150);/*Amarillo clarito*/
+
+}
+#palabraCuatro{
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(255, 400, 150);/*Amarillo clarito*/
+
+}
+#palabraCinco{
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(255, 400, 150);/*Amarillo clarito*/
+
+}
